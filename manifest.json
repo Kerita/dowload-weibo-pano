@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Download Weibo Panorama",
+    "version": "1.0",
+    "description": "Download Weibo Panorama",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "downloads"
+    ]
+}
